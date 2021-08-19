@@ -1,0 +1,92 @@
+:root {
+
+/* Colors: */
+--branco: #FFFFFF;
+--preto: #000000;
+--legenda: #464646;
+--primária: #F0F2EF;
+--linha: #A69F98;
+--box-rosa: #E8C0D7;
+--rosa-claro: #E39DC4;
+--rosa-escuro: #9E0059;
+--unnamed-color-030303: #030303;
+
+/* Font/text values */
+--unnamed-font-family-signika: Signika;
+--unnamed-font-family-catamaran: Catamaran;
+--unnamed-font-family-source-sans-pro: Source Sans Pro;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-600: 600px;
+--unnamed-font-weight-normal: normal;
+--unnamed-font-weight-bold: bold;
+--unnamed-font-size-16: 16px;
+--unnamed-font-size-20: 20px;
+--unnamed-font-size-24: 24px;
+--unnamed-font-size-48: 48px;
+--unnamed-font-size-104: 104px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-line-spacing-16: 16px;
+--unnamed-line-spacing-24: 24px;
+--unnamed-line-spacing-27: 27px;
+--unnamed-line-spacing-32: 32px;
+--unnamed-line-spacing-64: 64px;
+--unnamed-line-spacing-120: 120px;
+--unnamed-text-transform-uppercase: uppercase;
+}
+
+/* Character Styles */
+.display-1 {
+font-family: var(--unnamed-font-family-catamaran);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-104);
+line-height: var(--unnamed-line-spacing-120);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-030303);
+}
+.heading-1 {
+font-family: var(--unnamed-font-family-catamaran);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-48);
+line-height: var(--unnamed-line-spacing-64);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--preto);
+}
+.headin-2 {
+font-family: var(--unnamed-font-family-source-sans-pro);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-24);
+line-height: var(--unnamed-line-spacing-32);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--preto);
+}
+.legenda {
+font-family: var(--unnamed-font-family-source-sans-pro);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-16);
+line-height: var(--unnamed-line-spacing-24);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--legenda);
+}
+.menu {
+font-family: var(--unnamed-font-family-signika);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-20);
+line-height: var(--unnamed-line-spacing-27);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--branco);
+}
+.ícone {
+font-family: var(--unnamed-font-family-source-sans-pro);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-600);
+font-size: var(--unnamed-font-size-24);
+line-height: var(--unnamed-line-spacing-16);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--preto);
+text-transform: var(--unnamed-text-transform-uppercase);
+}
